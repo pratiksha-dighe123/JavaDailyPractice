@@ -3,6 +3,6 @@ public class TypeCastiing {
         byte b=10;
         int a = 10;
 //        byte b= a;                ....cast error
-        System.out.println(a);
+        System.out.println(a );
     }
 }
