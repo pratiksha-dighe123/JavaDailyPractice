@@ -1,12 +1,12 @@
 public class Demo {
     public static void main(String args[]) {
-    int x=17;
+    int num=10;
 
-    if(x>10 && x<20){
-        System.out.println("Valid");
+    if(num % 2== 0){
+        System.out.println(num + " is even");
     }
     else{
-        System.out.println("Invalid");
+        System.out.println(num + " is odd");
     }
     }
 }
