@@ -1,9 +1,12 @@
 public class Demo {
     public static void main(String args[]) {
-    int x=20;
-    int y=10;
+    int x=17;
 
-    boolean result= x>y || x==y;
-    System.out.println(result);
+    if(x>10 && x<20){
+        System.out.println("Valid");
+    }
+    else{
+        System.out.println("Invalid");
+    }
     }
 }
