@@ -3,7 +3,7 @@ public class Demo {
     int x=20;
     int y=10;
 
-    boolean result= x>y && x==y;
+    boolean result= x>y || x==y;
     System.out.println(result);
     }
 }
