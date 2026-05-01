@@ -14,7 +14,6 @@ public class Datatypes {
         // Boolean type
         boolean isJavaFun = true;
 
-        // String (not primitive, but commonly used)
         String message = "Hello, Java!";
 
         // Printing values
