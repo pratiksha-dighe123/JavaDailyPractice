@@ -9,7 +9,7 @@ public class TypeCasting {
         System.out.println("Converted to double: " + bigNum);
 
         //Explicit Casting (Narrowing)
-        double decimal = 9.78;
+        double decimal = 9.87;
         int smallNum = (int) decimal;   // double → int (manual)
 
         System.out.println("Double value: " + decimal);
