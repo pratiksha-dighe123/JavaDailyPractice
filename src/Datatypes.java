@@ -22,6 +22,6 @@ public class Datatypes {
         System.out.println("Double value: " + decimal2);
         System.out.println("Character value: " + letter);
         System.out.println("Boolean value: " + isJavaFun);
-        System.out.println("String value: " + message);
+        System.out.println("String value:  " + message);
     }
 }
