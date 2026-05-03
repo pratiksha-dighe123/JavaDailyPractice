@@ -5,7 +5,7 @@ public class NestedIfExample {
 
         if (age >= 18) {
             if (age >= 21) {
-                System.out.println("Eligible for everything");
+                System.out.println("Eligible for everything ");
             } else {
                 System.out.println("Eligible for voting only");
             }
