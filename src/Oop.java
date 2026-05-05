@@ -16,6 +16,6 @@ public class Oop {
 
         Operations opr=  new Operations();
         int sum= opr.add(10,10);
-        System.out.println("The sum is: " +sum);
+        System.out.println("The sum is:" +sum);
     }
 }
