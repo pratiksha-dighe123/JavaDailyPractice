@@ -21,6 +21,6 @@ public class Oop{
         m1.playMusic();
 
         Pen p1= new Pen();
-        System.out.println(p1.buyPen(90));
+        System.out.println(p1.buyPen(80));
     }
 }
