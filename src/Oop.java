@@ -4,9 +4,12 @@ class Music{
     }
 }
 
-class Movie{
-    public String movieName(String name){
-        return name;
+class Pen{
+    public String buyPen(int cost){
+        if(cost >= 10)
+            return "Pen is bought";
+        else
+            return "Pen is not available";
     }
 }
 
@@ -17,9 +20,7 @@ public class Oop{
         Music m1= new Music();
         m1.playMusic();
 
-        Movie m2= new Movie();
-        String name= m2.movieName("Dosti");
-        System.out.println("Movie name is: " +name);
-
+        Pen p1= new Pen();
+        System.out.println(p1.buyPen(20));
     }
 }
