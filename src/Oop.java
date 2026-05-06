@@ -9,7 +9,7 @@ class Pen{
         if(cost >= 10)
             return "Pen is bought";
         else
-            return "Pen is not available";
+            return "Pen is not available  ";
     }
 }
 
