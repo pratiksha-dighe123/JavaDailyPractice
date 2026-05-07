@@ -20,7 +20,7 @@ public class Oop{
         c1.playMusic();
 
         Store s1= new Store();
-        int result= s1.getItem(100);
+        int result= s1.getItem(20);
         System.out.println(result);
     }
 }
