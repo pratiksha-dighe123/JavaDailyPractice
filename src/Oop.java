@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 
 class Computer{
     public String playMusic(){
@@ -19,7 +20,7 @@ public class Oop{
         c1.playMusic();
 
         Store s1= new Store();
-        s1.getItem(100);
-
+        int result= s1.getItem(100);
+        System.out.println(result);
     }
 }
