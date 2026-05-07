@@ -29,5 +29,9 @@ public class Array{
         students[1]=s2;
         students[2]=s3;
 
+        for(Student stud: students){
+            System.out.println(stud.name + " got " + stud.marks + " marks.");
+        }
+
     }
 }
