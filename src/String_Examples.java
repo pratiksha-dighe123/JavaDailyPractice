@@ -11,7 +11,7 @@ public class String_Examples {
         System.out.println("Replace: " +name.replace("sha", " "));
         System.out.println("Contains: "+name.contains("tik"));
         System.out.println("Starts with S?: " +name.startsWith("S"));
-        System.out.println("Ends with a?: " +name.endsWith("a"));
+        System.out.println("Ends with a? : " +name.endsWith("a"));
     }
 
 }
