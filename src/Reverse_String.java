@@ -1,6 +1,6 @@
 public class Reverse_String {
     public static void main(String[] args){
-        String name= "Pratiksha ";
+        String name= "Aditya ";
         String reversed= "";
         for(int i=name.length()-1; i>=0; i--){
             reversed += name.charAt(i);
