@@ -2,7 +2,7 @@ class SelectionSort {
 
     public static void main(String[] args) {
 
-        int arr[] = {64, 25, 12, 22, 11};
+        int arr[] = {64, 25, 12, 2, 24};
 
         System.out.println("Before Sorting:");
 
