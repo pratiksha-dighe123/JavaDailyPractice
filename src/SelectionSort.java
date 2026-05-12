@@ -28,7 +28,7 @@ class SelectionSort {
             arr[minIndex] = temp;
         }
 
-        System.out.println("\nAfter array Sorting:");
+        System.out.println("\nAfter Sorting:");
 
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
