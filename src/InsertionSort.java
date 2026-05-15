@@ -12,7 +12,6 @@ public class InsertionSort {
 
         // Insertion Sort Logic
         for(int i = 1; i < arr.length; i++) {
-
             int key = arr[i];
             int j = i - 1;
 
@@ -24,7 +23,6 @@ public class InsertionSort {
         }
 
         System.out.println("\nAfter Sorting:");
-
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
