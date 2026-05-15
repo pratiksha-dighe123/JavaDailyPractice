@@ -5,7 +5,6 @@ public class InsertionSort {
         int arr[] = {69, 25, 12, 2, 24};
 
         System.out.println("Before Sorting :");
-
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
