@@ -2,9 +2,9 @@ public class InsertionSort {
 
     public static void main(String[] args) {
 
-        int arr[] = {64, 25, 12, 2, 24};
+        int arr[] = {69, 25, 12, 2, 24};
 
-        System.out.println("Before Sorting :");
+        System.out.println("Before Sorting:");
 
         for(int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
