@@ -1,7 +1,7 @@
 class BubbleSort {
     public static void main(String[] args) {
 
-        int arr[] = {5, 1, 4, 2, 8};
+        int arr[] = {51, 1, 4, 2, 8};
         int temp;
 
         System.out.println("Before Sorting:");
