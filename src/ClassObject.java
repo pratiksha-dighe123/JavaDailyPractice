@@ -5,7 +5,7 @@ class ClassObject {
     String name = "Pratiksha Dighe";
 
     // Method
-    void display() {
+    public void display() {
         System.out.println("Student ID: " + id);
         System.out.println("Student Name: " + name);
     }
@@ -13,9 +13,9 @@ class ClassObject {
     public static void main(String[] args) {
 
         // Creating object
-        Student s1 = new Student();
+        ClassObject obj = new ClassObject();
 
-        // Calling method
-        s1.display();
+        // Accessing method using object
+        obj.display();
     }
 }
