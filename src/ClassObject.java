@@ -2,7 +2,7 @@ class ClassObject {
 
     // Data members
     int id = 101;
-    String name = "Pratiksha Dighe";
+    String name = "Pratiksha";
 
     // Method
     public void display() {
