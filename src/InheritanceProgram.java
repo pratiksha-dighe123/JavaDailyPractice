@@ -17,6 +17,7 @@ class Dog extends Animal {
     public static void main(String[] args) {
 
         // Creating object of child class
+        // Creating object of child class
         Dog d = new Dog();
 
         // Calling parent class method
