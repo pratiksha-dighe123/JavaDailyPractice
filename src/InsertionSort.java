@@ -10,7 +10,7 @@ public class InsertionSort {
         }
 
         // Insertion Sort Logic
-        for(int i = 2; i < arr.length; i++) {
+        for(int i = 1; i < arr.length; i++) {
             int key = arr[i];
             int j = i - 1;
 
