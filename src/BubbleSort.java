@@ -7,7 +7,7 @@ class BubbleSort {
         System.out.println("Before Sorting:");
 
         for(int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i] + "");
+            System.out.print(arr[i] + " ");
         }
 
         // Bubble Sort
