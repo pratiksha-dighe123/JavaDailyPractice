@@ -8,6 +8,6 @@ public class ExceptionDemo {
             System.out.println("Cannot divide by zero");
         }
 
-        System.out.println("Program Continues..");
+        System.out.println("Program Continues.");
     }
 }
