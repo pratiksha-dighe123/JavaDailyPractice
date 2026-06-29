@@ -8,7 +8,7 @@ public class HashSetDemo {
 
             set.add("Java");
             set.add("Python");
-            set.add("C++");
+            set.add("C");
             set.add("Java");   // Duplicate
 
             System.out.println(set);
