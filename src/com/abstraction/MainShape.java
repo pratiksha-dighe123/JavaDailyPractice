@@ -8,7 +8,7 @@ abstract class Shape{
 
 class Circle extends Shape{
     void  draw(){
-        System.out.println("Circle is drawing");
+        System.out.println("Circle is drawing ");
     }
 }
 
