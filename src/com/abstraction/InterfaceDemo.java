@@ -14,7 +14,7 @@ class Dog1 implements Animal1, Pet{
     }
 
     public void play(){
-        System.out.println("Dog is playing");
+        System.out.println("Dog is playing ");
     }
 }
 
