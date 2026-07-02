@@ -12,6 +12,6 @@ public class ThreadDemo {
         Mythread t = new Mythread();
         t.start();
 
-        System.out.println("Main thread is running...");
+        System.out.println("Main thread is running");
     }
 }
