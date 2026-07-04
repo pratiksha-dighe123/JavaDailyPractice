@@ -6,7 +6,7 @@ class Demo extends Thread {
 
         for(int i=1;i<=5;i++) {
 
-            System.out.println(getName()+" : "+i);
+            System.out.println(getName()+" :"+i);
 
         }
     }
