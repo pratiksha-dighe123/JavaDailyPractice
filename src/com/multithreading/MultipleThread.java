@@ -20,7 +20,6 @@ public class MultipleThread {
         Demo t2=new Demo();
 
         t1.start();
-
         t2.start();
 
     }
