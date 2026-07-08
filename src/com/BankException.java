@@ -12,7 +12,7 @@ public class BankException {
             throw new InsufficientBalanceException("Insufficient Balance...");
         }
         System.out.println("Transaction Successful");
-        System.out.println("Remaining Balance = " + (balance - amount));
+        System.out.println("Remaining Balance = "+ (balance - amount));
         }
 
     public static void main(String[] args) {
