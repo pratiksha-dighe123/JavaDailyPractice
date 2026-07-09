@@ -11,7 +11,7 @@ public class BankException {
         if(amount> balance) {
             throw new InsufficientBalanceException("Insufficient Balance...");
         }
-        System.out.println("Transaction Successful");
+        System.out.println("Transaction Successful ");
         System.out.println("Remaining Balance = "+ (balance - amount));
         }
 
