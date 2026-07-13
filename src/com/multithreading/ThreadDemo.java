@@ -2,7 +2,7 @@ package com.multithreading;
 
 class Mythread extends Thread{
     public void run(){
-        System.out.println("Thread is running ");
+        System.out.println("Thread is running");
     }
 }
 
@@ -12,6 +12,6 @@ public class ThreadDemo {
         Mythread t = new Mythread();
         t.start();
 
-        System.out.println("Main thread is running..");
+        System.out.println("Main thread is running");
     }
 }
