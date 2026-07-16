@@ -30,9 +30,9 @@ public class ThreadSleep{
 
     public static void main(String[] args){
 
-        Demo t1=new Demo();
+        Demo t=new Demo();
 
-        t1.start();
+        t.start();
 
     }
 
